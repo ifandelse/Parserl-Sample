@@ -1,0 +1,12 @@
+{application, parserl_sample,
+ [
+  {description, "A very simple example of using the parserl library"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+				  parserl
+                 ]},
+  {env, []}
+ ]}.
